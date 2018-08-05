@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C47E118421172FA800228EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E118321172FA800228EBA /* AppDelegate.swift */; };
+		C47E118621172FA800228EBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E118521172FA800228EBA /* ViewController.swift */; };
+		C47E118921172FA800228EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47E118721172FA800228EBA /* Main.storyboard */; };
+		C47E118C21172FA800228EBA /* BELKA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C47E118A21172FA800228EBA /* BELKA.xcdatamodeld */; };
+		C47E118E21172FA900228EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47E118D21172FA900228EBA /* Assets.xcassets */; };
+		C47E119121172FA900228EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47E118F21172FA900228EBA /* LaunchScreen.storyboard */; };
+		C47E119C21172FA900228EBA /* BELKATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E119B21172FA900228EBA /* BELKATests.swift */; };
+		C47E11A721172FAA00228EBA /* BELKAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E11A621172FAA00228EBA /* BELKAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C47E119821172FA900228EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47E117821172FA800228EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47E117F21172FA800228EBA;
+			remoteInfo = BELKA;
+		};
+		C47E11A321172FAA00228EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47E117821172FA800228EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47E117F21172FA800228EBA;
+			remoteInfo = BELKA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C47E118021172FA800228EBA /* BELKA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BELKA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47E118321172FA800228EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C47E118521172FA800228EBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C47E118821172FA800228EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C47E118B21172FA800228EBA /* BELKA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BELKA.xcdatamodel; sourceTree = "<group>"; };
+		C47E118D21172FA900228EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C47E119021172FA900228EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C47E119221172FA900228EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47E119721172FA900228EBA /* BELKATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BELKATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47E119B21172FA900228EBA /* BELKATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BELKATests.swift; sourceTree = "<group>"; };
+		C47E119D21172FA900228EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47E11A221172FAA00228EBA /* BELKAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BELKAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47E11A621172FAA00228EBA /* BELKAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BELKAUITests.swift; sourceTree = "<group>"; };
+		C47E11A821172FAA00228EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C47E117D21172FA800228EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E119421172FA900228EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E119F21172FAA00228EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C47E117721172FA800228EBA = {
+			isa = PBXGroup;
+			children = (
+				C47E118221172FA800228EBA /* BELKA */,
+				C47E119A21172FA900228EBA /* BELKATests */,
+				C47E11A521172FAA00228EBA /* BELKAUITests */,
+				C47E118121172FA800228EBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C47E118121172FA800228EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C47E118021172FA800228EBA /* BELKA.app */,
+				C47E119721172FA900228EBA /* BELKATests.xctest */,
+				C47E11A221172FAA00228EBA /* BELKAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C47E118221172FA800228EBA /* BELKA */ = {
+			isa = PBXGroup;
+			children = (
+				C47E118321172FA800228EBA /* AppDelegate.swift */,
+				C47E118521172FA800228EBA /* ViewController.swift */,
+				C47E118721172FA800228EBA /* Main.storyboard */,
+				C47E118D21172FA900228EBA /* Assets.xcassets */,
+				C47E118F21172FA900228EBA /* LaunchScreen.storyboard */,
+				C47E119221172FA900228EBA /* Info.plist */,
+				C47E118A21172FA800228EBA /* BELKA.xcdatamodeld */,
+			);
+			path = BELKA;
+			sourceTree = "<group>";
+		};
+		C47E119A21172FA900228EBA /* BELKATests */ = {
+			isa = PBXGroup;
+			children = (
+				C47E119B21172FA900228EBA /* BELKATests.swift */,
+				C47E119D21172FA900228EBA /* Info.plist */,
+			);
+			path = BELKATests;
+			sourceTree = "<group>";
+		};
+		C47E11A521172FAA00228EBA /* BELKAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C47E11A621172FAA00228EBA /* BELKAUITests.swift */,
+				C47E11A821172FAA00228EBA /* Info.plist */,
+			);
+			path = BELKAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C47E117F21172FA800228EBA /* BELKA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47E11AB21172FAA00228EBA /* Build configuration list for PBXNativeTarget "BELKA" */;
+			buildPhases = (
+				C47E117C21172FA800228EBA /* Sources */,
+				C47E117D21172FA800228EBA /* Frameworks */,
+				C47E117E21172FA800228EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BELKA;
+			productName = BELKA;
+			productReference = C47E118021172FA800228EBA /* BELKA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C47E119621172FA900228EBA /* BELKATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47E11AE21172FAA00228EBA /* Build configuration list for PBXNativeTarget "BELKATests" */;
+			buildPhases = (
+				C47E119321172FA900228EBA /* Sources */,
+				C47E119421172FA900228EBA /* Frameworks */,
+				C47E119521172FA900228EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47E119921172FA900228EBA /* PBXTargetDependency */,
+			);
+			name = BELKATests;
+			productName = BELKATests;
+			productReference = C47E119721172FA900228EBA /* BELKATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C47E11A121172FAA00228EBA /* BELKAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47E11B121172FAA00228EBA /* Build configuration list for PBXNativeTarget "BELKAUITests" */;
+			buildPhases = (
+				C47E119E21172FAA00228EBA /* Sources */,
+				C47E119F21172FAA00228EBA /* Frameworks */,
+				C47E11A021172FAA00228EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47E11A421172FAA00228EBA /* PBXTargetDependency */,
+			);
+			name = BELKAUITests;
+			productName = BELKAUITests;
+			productReference = C47E11A221172FAA00228EBA /* BELKAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C47E117821172FA800228EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Yaroslav Tsepkov";
+				TargetAttributes = {
+					C47E117F21172FA800228EBA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C47E119621172FA900228EBA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C47E117F21172FA800228EBA;
+					};
+					C47E11A121172FAA00228EBA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C47E117F21172FA800228EBA;
+					};
+				};
+			};
+			buildConfigurationList = C47E117B21172FA800228EBA /* Build configuration list for PBXProject "BELKA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C47E117721172FA800228EBA;
+			productRefGroup = C47E118121172FA800228EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C47E117F21172FA800228EBA /* BELKA */,
+				C47E119621172FA900228EBA /* BELKATests */,
+				C47E11A121172FAA00228EBA /* BELKAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C47E117E21172FA800228EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E119121172FA900228EBA /* LaunchScreen.storyboard in Resources */,
+				C47E118E21172FA900228EBA /* Assets.xcassets in Resources */,
+				C47E118921172FA800228EBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E119521172FA900228EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E11A021172FAA00228EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C47E117C21172FA800228EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E118C21172FA800228EBA /* BELKA.xcdatamodeld in Sources */,
+				C47E118621172FA800228EBA /* ViewController.swift in Sources */,
+				C47E118421172FA800228EBA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E119321172FA900228EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E119C21172FA900228EBA /* BELKATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E119E21172FAA00228EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E11A721172FAA00228EBA /* BELKAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C47E119921172FA900228EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47E117F21172FA800228EBA /* BELKA */;
+			targetProxy = C47E119821172FA900228EBA /* PBXContainerItemProxy */;
+		};
+		C47E11A421172FAA00228EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47E117F21172FA800228EBA /* BELKA */;
+			targetProxy = C47E11A321172FAA00228EBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C47E118721172FA800228EBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47E118821172FA800228EBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C47E118F21172FA900228EBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47E119021172FA900228EBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C47E11A921172FAA00228EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C47E11AA21172FAA00228EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C47E11AC21172FAA00228EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BELKA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslav.BELKA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C47E11AD21172FAA00228EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BELKA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslav.BELKA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C47E11AF21172FAA00228EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BELKATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslav.BELKATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BELKA.app/BELKA";
+			};
+			name = Debug;
+		};
+		C47E11B021172FAA00228EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BELKATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslav.BELKATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BELKA.app/BELKA";
+			};
+			name = Release;
+		};
+		C47E11B221172FAA00228EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BELKAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslav.BELKAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BELKA;
+			};
+			name = Debug;
+		};
+		C47E11B321172FAA00228EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BELKAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslav.BELKAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BELKA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C47E117B21172FA800228EBA /* Build configuration list for PBXProject "BELKA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E11A921172FAA00228EBA /* Debug */,
+				C47E11AA21172FAA00228EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47E11AB21172FAA00228EBA /* Build configuration list for PBXNativeTarget "BELKA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E11AC21172FAA00228EBA /* Debug */,
+				C47E11AD21172FAA00228EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47E11AE21172FAA00228EBA /* Build configuration list for PBXNativeTarget "BELKATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E11AF21172FAA00228EBA /* Debug */,
+				C47E11B021172FAA00228EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47E11B121172FAA00228EBA /* Build configuration list for PBXNativeTarget "BELKAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E11B221172FAA00228EBA /* Debug */,
+				C47E11B321172FAA00228EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C47E118A21172FA800228EBA /* BELKA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C47E118B21172FA800228EBA /* BELKA.xcdatamodel */,
+			);
+			currentVersion = C47E118B21172FA800228EBA /* BELKA.xcdatamodel */;
+			path = BELKA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C47E117821172FA800228EBA /* Project object */;
+}
