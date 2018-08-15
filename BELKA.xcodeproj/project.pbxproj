@@ -15,6 +15,7 @@
 		C47E119121172FA900228EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47E118F21172FA900228EBA /* LaunchScreen.storyboard */; };
 		C47E119C21172FA900228EBA /* BELKATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E119B21172FA900228EBA /* BELKATests.swift */; };
 		C47E11A721172FAA00228EBA /* BELKAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E11A621172FAA00228EBA /* BELKAUITests.swift */; };
+		C4F1CA45212132940076582D /* SF Pro in Resources */ = {isa = PBXBuildFile; fileRef = C4F1CA44212132940076582D /* SF Pro */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C47E11A221172FAA00228EBA /* BELKAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BELKAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47E11A621172FAA00228EBA /* BELKAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BELKAUITests.swift; sourceTree = "<group>"; };
 		C47E11A821172FAA00228EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F1CA44212132940076582D /* SF Pro */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "SF Pro"; path = "../../../../../../../../Volumes/SF-Font/SF Pro"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				C47E118321172FA800228EBA /* AppDelegate.swift */,
-				C47E118521172FA800228EBA /* ViewController.swift */,
-				C47E118721172FA800228EBA /* Main.storyboard */,
+				C4F1CA482124A8B90076582D /* controllers */,
+				C4F1CA472124A8AB0076582D /* views */,
+				C4F1CA462124A89F0076582D /* models */,
+				C4F1CA43212132520076582D /* fonts */,
 				C47E118D21172FA900228EBA /* Assets.xcassets */,
-				C47E118F21172FA900228EBA /* LaunchScreen.storyboard */,
 				C47E119221172FA900228EBA /* Info.plist */,
 				C47E118A21172FA800228EBA /* BELKA.xcdatamodeld */,
 			);
@@ -126,6 +129,39 @@
 				C47E11A821172FAA00228EBA /* Info.plist */,
 			);
 			path = BELKAUITests;
+			sourceTree = "<group>";
+		};
+		C4F1CA43212132520076582D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C4F1CA44212132940076582D /* SF Pro */,
+			);
+			name = fonts;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		C4F1CA462124A89F0076582D /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		C4F1CA472124A8AB0076582D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C47E118721172FA800228EBA /* Main.storyboard */,
+				C47E118F21172FA900228EBA /* LaunchScreen.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		C4F1CA482124A8B90076582D /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C47E118521172FA800228EBA /* ViewController.swift */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F1CA45212132940076582D /* SF Pro in Resources */,
 				C47E119121172FA900228EBA /* LaunchScreen.storyboard in Resources */,
 				C47E118E21172FA900228EBA /* Assets.xcassets in Resources */,
 				C47E118921172FA800228EBA /* Main.storyboard in Resources */,
@@ -434,8 +471,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BELKA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yaroslav.BELKA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,8 +490,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BELKA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +501,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yaroslav.BELKA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
