@@ -16,6 +16,7 @@
 		C47E119C21172FA900228EBA /* BELKATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E119B21172FA900228EBA /* BELKATests.swift */; };
 		C47E11A721172FAA00228EBA /* BELKAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E11A621172FAA00228EBA /* BELKAUITests.swift */; };
 		C4F1CA45212132940076582D /* SF Pro in Resources */ = {isa = PBXBuildFile; fileRef = C4F1CA44212132940076582D /* SF Pro */; };
+		C4F1CA4B2124BA650076582D /* UIView_Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F1CA4A2124BA650076582D /* UIView_Layer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C47E11A621172FAA00228EBA /* BELKAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BELKAUITests.swift; sourceTree = "<group>"; };
 		C47E11A821172FAA00228EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4F1CA44212132940076582D /* SF Pro */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "SF Pro"; path = "../../../../../../../../Volumes/SF-Font/SF Pro"; sourceTree = "<group>"; };
+		C4F1CA4A2124BA650076582D /* UIView_Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_Layer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		C47E118221172FA800228EBA /* BELKA */ = {
 			isa = PBXGroup;
 			children = (
+				C4F1CA492124B9CB0076582D /* helpers */,
 				C47E118321172FA800228EBA /* AppDelegate.swift */,
 				C4F1CA482124A8B90076582D /* controllers */,
 				C4F1CA472124A8AB0076582D /* views */,
@@ -162,6 +165,14 @@
 				C47E118521172FA800228EBA /* ViewController.swift */,
 			);
 			path = controllers;
+			sourceTree = "<group>";
+		};
+		C4F1CA492124B9CB0076582D /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C4F1CA4A2124BA650076582D /* UIView_Layer.swift */,
+			);
+			path = helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +309,7 @@
 			files = (
 				C47E118C21172FA800228EBA /* BELKA.xcdatamodeld in Sources */,
 				C47E118621172FA800228EBA /* ViewController.swift in Sources */,
+				C4F1CA4B2124BA650076582D /* UIView_Layer.swift in Sources */,
 				C47E118421172FA800228EBA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
