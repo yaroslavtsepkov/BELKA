@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		292CD7D1E56BBE81BB314290 /* Pods_BELKAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEDA0B4A1FEE2E849CA9038 /* Pods_BELKAUITests.framework */; };
+		678D24C9C259F12C2A6BC33C /* Pods_BELKA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BC3A316D43F74FACD1AB47 /* Pods_BELKA.framework */; };
+		98ED8484CF040CDA53BD17C4 /* Pods_BELKATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188BBA3F3A5890F85A5B50B8 /* Pods_BELKATests.framework */; };
+		C45912172132AD15003E396D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C45912162132AD14003E396D /* GoogleService-Info.plist */; };
 		C47E118421172FA800228EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E118321172FA800228EBA /* AppDelegate.swift */; };
 		C47E118621172FA800228EBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E118521172FA800228EBA /* ViewController.swift */; };
 		C47E118921172FA800228EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47E118721172FA800228EBA /* Main.storyboard */; };
@@ -15,6 +19,8 @@
 		C47E119121172FA900228EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47E118F21172FA900228EBA /* LaunchScreen.storyboard */; };
 		C47E119C21172FA900228EBA /* BELKATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E119B21172FA900228EBA /* BELKATests.swift */; };
 		C47E11A721172FAA00228EBA /* BELKAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E11A621172FAA00228EBA /* BELKAUITests.swift */; };
+		C4B19AE0212F33C6002A9435 /* socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B19ADF212F33C6002A9435 /* socket.swift */; };
+		C4F1CA4B2124BA650076582D /* UIView_Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F1CA4A2124BA650076582D /* UIView_Layer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05652143B6BBC96874D89794 /* Pods-BELKAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BELKAUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BELKAUITests/Pods-BELKAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		188BBA3F3A5890F85A5B50B8 /* Pods_BELKATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BELKATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEDA0B4A1FEE2E849CA9038 /* Pods_BELKAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BELKAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5795D9A4ED05AAF10BDFA31A /* Pods-BELKA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BELKA.release.xcconfig"; path = "Pods/Target Support Files/Pods-BELKA/Pods-BELKA.release.xcconfig"; sourceTree = "<group>"; };
+		64BC3A316D43F74FACD1AB47 /* Pods_BELKA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BELKA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		702AA85653EF0BBF106BB40C /* Pods-BELKATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BELKATests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BELKATests/Pods-BELKATests.debug.xcconfig"; sourceTree = "<group>"; };
+		B74AE5593726A593BCF09149 /* Pods-BELKATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BELKATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BELKATests/Pods-BELKATests.release.xcconfig"; sourceTree = "<group>"; };
+		C45912162132AD14003E396D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C47E118021172FA800228EBA /* BELKA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BELKA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47E118321172FA800228EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C47E118521172FA800228EBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +63,10 @@
 		C47E11A221172FAA00228EBA /* BELKAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BELKAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47E11A621172FAA00228EBA /* BELKAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BELKAUITests.swift; sourceTree = "<group>"; };
 		C47E11A821172FAA00228EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4B19ADF212F33C6002A9435 /* socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = socket.swift; sourceTree = "<group>"; };
+		C4F1CA4A2124BA650076582D /* UIView_Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_Layer.swift; sourceTree = "<group>"; };
+		CA9347B025EE097894271F94 /* Pods-BELKA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BELKA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BELKA/Pods-BELKA.debug.xcconfig"; sourceTree = "<group>"; };
+		FB48DBBBB0C75951996E85E0 /* Pods-BELKAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BELKAUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BELKAUITests/Pods-BELKAUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678D24C9C259F12C2A6BC33C /* Pods_BELKA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98ED8484CF040CDA53BD17C4 /* Pods_BELKATests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				292CD7D1E56BBE81BB314290 /* Pods_BELKAUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43863098C450E4C9D8DFBDD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA9347B025EE097894271F94 /* Pods-BELKA.debug.xcconfig */,
+				5795D9A4ED05AAF10BDFA31A /* Pods-BELKA.release.xcconfig */,
+				702AA85653EF0BBF106BB40C /* Pods-BELKATests.debug.xcconfig */,
+				B74AE5593726A593BCF09149 /* Pods-BELKATests.release.xcconfig */,
+				05652143B6BBC96874D89794 /* Pods-BELKAUITests.debug.xcconfig */,
+				FB48DBBBB0C75951996E85E0 /* Pods-BELKAUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F748EF9EDC2D92D9BBF9E75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64BC3A316D43F74FACD1AB47 /* Pods_BELKA.framework */,
+				188BBA3F3A5890F85A5B50B8 /* Pods_BELKATests.framework */,
+				3CEDA0B4A1FEE2E849CA9038 /* Pods_BELKAUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C47E117721172FA800228EBA = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				C47E119A21172FA900228EBA /* BELKATests */,
 				C47E11A521172FAA00228EBA /* BELKAUITests */,
 				C47E118121172FA800228EBA /* Products */,
+				43863098C450E4C9D8DFBDD3 /* Pods */,
+				7F748EF9EDC2D92D9BBF9E75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +145,15 @@
 		C47E118221172FA800228EBA /* BELKA */ = {
 			isa = PBXGroup;
 			children = (
+				C4F1CA492124B9CB0076582D /* helpers */,
 				C47E118321172FA800228EBA /* AppDelegate.swift */,
-				C47E118521172FA800228EBA /* ViewController.swift */,
-				C47E118721172FA800228EBA /* Main.storyboard */,
+				C4F1CA482124A8B90076582D /* controllers */,
+				C4F1CA472124A8AB0076582D /* views */,
+				C4F1CA462124A89F0076582D /* models */,
 				C47E118D21172FA900228EBA /* Assets.xcassets */,
-				C47E118F21172FA900228EBA /* LaunchScreen.storyboard */,
 				C47E119221172FA900228EBA /* Info.plist */,
 				C47E118A21172FA800228EBA /* BELKA.xcdatamodeld */,
+				C45912162132AD14003E396D /* GoogleService-Info.plist */,
 			);
 			path = BELKA;
 			sourceTree = "<group>";
@@ -128,6 +176,39 @@
 			path = BELKAUITests;
 			sourceTree = "<group>";
 		};
+		C4F1CA462124A89F0076582D /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		C4F1CA472124A8AB0076582D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C47E118721172FA800228EBA /* Main.storyboard */,
+				C47E118F21172FA900228EBA /* LaunchScreen.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		C4F1CA482124A8B90076582D /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C47E118521172FA800228EBA /* ViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		C4F1CA492124B9CB0076582D /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C4F1CA4A2124BA650076582D /* UIView_Layer.swift */,
+				C4B19ADF212F33C6002A9435 /* socket.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C47E11AB21172FAA00228EBA /* Build configuration list for PBXNativeTarget "BELKA" */;
 			buildPhases = (
+				1468D2FE310000CE225EFBEA /* [CP] Check Pods Manifest.lock */,
 				C47E117C21172FA800228EBA /* Sources */,
 				C47E117D21172FA800228EBA /* Frameworks */,
 				C47E117E21172FA800228EBA /* Resources */,
+				7620522C63EC2C3D38981A02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C47E11AE21172FAA00228EBA /* Build configuration list for PBXNativeTarget "BELKATests" */;
 			buildPhases = (
+				620CAE87B18998B3D90BDD70 /* [CP] Check Pods Manifest.lock */,
 				C47E119321172FA900228EBA /* Sources */,
 				C47E119421172FA900228EBA /* Frameworks */,
 				C47E119521172FA900228EBA /* Resources */,
@@ -170,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C47E11B121172FAA00228EBA /* Build configuration list for PBXNativeTarget "BELKAUITests" */;
 			buildPhases = (
+				72769983705D3B7AB404E6BC /* [CP] Check Pods Manifest.lock */,
 				C47E119E21172FAA00228EBA /* Sources */,
 				C47E119F21172FAA00228EBA /* Frameworks */,
 				C47E11A021172FAA00228EBA /* Resources */,
@@ -196,6 +281,7 @@
 				TargetAttributes = {
 					C47E117F21172FA800228EBA = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					C47E119621172FA900228EBA = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -233,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C47E119121172FA900228EBA /* LaunchScreen.storyboard in Resources */,
+				C45912172132AD15003E396D /* GoogleService-Info.plist in Resources */,
 				C47E118E21172FA900228EBA /* Assets.xcassets in Resources */,
 				C47E118921172FA800228EBA /* Main.storyboard in Resources */,
 			);
@@ -254,6 +341,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1468D2FE310000CE225EFBEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BELKA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		620CAE87B18998B3D90BDD70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BELKATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72769983705D3B7AB404E6BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BELKAUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7620522C63EC2C3D38981A02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BELKA/Pods-BELKA-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BELKA/Pods-BELKA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C47E117C21172FA800228EBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +439,8 @@
 			files = (
 				C47E118C21172FA800228EBA /* BELKA.xcdatamodeld in Sources */,
 				C47E118621172FA800228EBA /* ViewController.swift in Sources */,
+				C4B19AE0212F33C6002A9435 /* socket.swift in Sources */,
+				C4F1CA4B2124BA650076582D /* UIView_Layer.swift in Sources */,
 				C47E118421172FA800228EBA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,40 +612,52 @@
 		};
 		C47E11AC21172FAA00228EBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9347B025EE097894271F94 /* Pods-BELKA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BELKA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yaroslav.BELKA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BELKA/helpers/BELKA-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C47E11AD21172FAA00228EBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5795D9A4ED05AAF10BDFA31A /* Pods-BELKA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BELKA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yaroslav.BELKA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BELKA/helpers/BELKA-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		C47E11AF21172FAA00228EBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702AA85653EF0BBF106BB40C /* Pods-BELKATests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +678,7 @@
 		};
 		C47E11B021172FAA00228EBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B74AE5593726A593BCF09149 /* Pods-BELKATests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +699,7 @@
 		};
 		C47E11B221172FAA00228EBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05652143B6BBC96874D89794 /* Pods-BELKAUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +719,7 @@
 		};
 		C47E11B321172FAA00228EBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB48DBBBB0C75951996E85E0 /* Pods-BELKAUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
