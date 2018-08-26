@@ -18,3 +18,22 @@ extension UIView {
         }
     }
 }
+
+class Button: UIButton {
+    required init?(coder aDecoder:NSCoder) {
+        super.init(coder: aDecoder)
+        initial()
+    }
+    override init(frame: CGRect){
+        super.init(frame: frame)
+        initial()
+    }
+    
+    func initial() {
+        clipsToBounds = true
+        layer.cornerRadius = 5
+        layer.borderWidth = 3
+        layer.borderColor = nil
+    }
+}
+
