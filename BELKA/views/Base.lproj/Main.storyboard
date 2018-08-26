@@ -32,7 +32,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BELKA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BELKA" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -90,6 +90,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="buttonEnter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rn8-gE-Ldb"/>
+                                    <action selector="loginAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cln-RE-8fZ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Или войдите через" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="1G8-gk-rG1">
@@ -183,7 +184,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C5M-9g-26Q">
-                                <rect key="frame" x="196.66666666666669" y="270" width="135" height="34.666666666666686"/>
+                                <rect key="frame" x="200.66666666666669" y="270" width="131" height="34.666666666666686"/>
                                 <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="22"/>
                                 <state key="normal" title="Регестрация">
                                     <color key="titleColor" white="1" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -250,12 +251,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="emailTextField" destination="4aY-tD-cBj" id="Iew-jd-Ms3"/>
-                        <outlet property="passwordTextField" destination="fzY-5x-Ems" id="4o7-Vr-Fc6"/>
-                        <outlet property="style" destination="rl1-e7-GTp" id="uwh-Pp-XFg"/>
-                        <outlet property="styleButton" destination="rl1-e7-GTp" id="DyJ-uu-E4c"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -264,7 +259,7 @@
         <!--View Controller-->
         <scene sceneID="W6W-Ql-kna">
             <objects>
-                <viewController id="kve-EQ-13g" sceneMemberID="viewController">
+                <viewController id="kve-EQ-13g" customClass="ViewController" customModule="BELKA" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d6z-jW-nSd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -364,6 +359,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="buttonEnter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BbJ-1W-Vcd"/>
+                                    <action selector="signUpAction:" destination="kve-EQ-13g" eventType="touchUpInside" id="Hop-3K-VfH"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line" translatesAutoresizingMaskIntoConstraints="NO" id="agS-8V-H6R">
@@ -506,6 +502,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="w7M-Mg-Pmg"/>
                     </view>
+                    <connections>
+                        <outlet property="email" destination="YZE-Aq-oWg" id="HeL-cS-M1j"/>
+                        <outlet property="password" destination="v0x-zR-BaF" id="vgQ-t0-vzP"/>
+                        <outlet property="passwordConfirm" destination="0RA-G4-6Iv" id="mMp-lW-tIw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oQl-fI-aFx" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="BELKA" textAlignment="center" minimumFontSize="12" id="X8M-Ns-V0q">
