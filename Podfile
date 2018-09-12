@@ -11,7 +11,9 @@ target 'BELKA' do
  pod 'RealmSwift'
  pod 'Socket.IO-Client-Swift', '~> 13.3.0'
  pod 'Firebase/Core'
- pod ‘Firebase/Auth’ 
+ pod ‘Firebase/Auth’
+ pod 'Socket.IO-Client-Swift', '~> 13.3.0'
+
   target 'BELKATests' do
     inherit! :search_paths
     # Pods for testing
