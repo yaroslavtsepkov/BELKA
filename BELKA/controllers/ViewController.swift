@@ -24,7 +24,33 @@ class ViewController: UIViewController {
     @IBOutlet weak var passwordConfirm: UITextField!
     
     @IBAction func signUpAction(_ sender: Any) {
+        guard let url = URL(string: "http://85.117.155.231:3000/user/") else { return }
+        let parametrs = [
+            "email": "user@mail.ru",
+            "password": "ilovecats",
+            "method": "register",
+            "seed": "c52gk12l"
+        ]
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         
+        guard let httpBody = try? JSONSerialization.data(withJSONObject: parametrs, options: []) else { return }
+        request.httpBody = httpBody
+        
+        let session = URLSession.shared
+        session.dataTask(with: request) { (data, response, error) in
+            if let response = response {
+                print(response)
+            }
+            guard let data = data else { return }
+            do {
+                let json = try JSONSerialization.data(withJSONObject: data, options: [])
+                print(json)
+            } catch {
+                print(error)
+            }
+        }.resume()
     }
     @IBAction func loginAction(_ sender: Any) {
         
