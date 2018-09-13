@@ -52,7 +52,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Забыли пароль?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="x6N-vC-Ok7">
-                                <rect key="frame" x="62.000000000000014" y="451.33333333333331" width="146.33333333333337" height="21"/>
+                                <rect key="frame" x="62.000000000000014" y="451" width="146.33333333333337" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="x6N-vC-Ok7" secondAttribute="height" multiplier="139:20" id="TdL-3A-O4u"/>
                                 </constraints>
@@ -61,7 +61,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7la-EF-kUz">
-                                <rect key="frame" x="197.99999999999997" y="451.33333333333331" width="127.66666666666666" height="21"/>
+                                <rect key="frame" x="197.99999999999997" y="451" width="127.66666666666666" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="7la-EF-kUz" secondAttribute="height" multiplier="121:19" id="Ad5-4z-SVF"/>
                                 </constraints>
@@ -74,7 +74,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jqz-9l-BLS">
-                                <rect key="frame" x="44" y="498.33333333333326" width="294.66666666666669" height="51"/>
+                                <rect key="frame" x="44" y="497.99999999999994" width="294.66666666666669" height="51.333333333333314"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Jqz-9l-BLS" secondAttribute="height" multiplier="144:25" id="S0j-We-Jvp"/>
@@ -103,13 +103,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line" translatesAutoresizingMaskIntoConstraints="NO" id="QRc-AH-7Ik">
-                                <rect key="frame" x="45" y="364.66666666666669" width="293.66666666666669" height="1"/>
+                                <rect key="frame" x="45" y="364.33333333333331" width="293.66666666666669" height="1.3333333333333144"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="QRc-AH-7Ik" secondAttribute="height" multiplier="287:1" id="pM0-XB-DuM"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line" translatesAutoresizingMaskIntoConstraints="NO" id="P8K-Tk-XQO">
-                                <rect key="frame" x="45" y="423" width="293.66666666666669" height="1.3333333333333144"/>
+                                <rect key="frame" x="45" y="423" width="293.66666666666669" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="P8K-Tk-XQO" secondAttribute="height" multiplier="287:1" id="wge-Wc-WOC"/>
                                 </constraints>
@@ -124,7 +124,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Электронная почта" textAlignment="justified" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="4aY-tD-cBj">
-                                <rect key="frame" x="45" y="337" width="292.66666666666669" height="21.666666666666686"/>
+                                <rect key="frame" x="45" y="337" width="292.66666666666669" height="21.333333333333314"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="4aY-tD-cBj" secondAttribute="height" multiplier="286:21" id="UEl-cP-4sH"/>
                                 </constraints>

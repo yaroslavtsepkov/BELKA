@@ -24,33 +24,46 @@ class ViewController: UIViewController {
     @IBOutlet weak var passwordConfirm: UITextField!
     
     @IBAction func signUpAction(_ sender: Any) {
-        guard let url = URL(string: "http://85.117.155.231:3000/user/") else { return }
-        let parametrs = [
-            "email": "user@mail.ru",
+        
+        let url = URL(string: "http://192.168.1.8:3000/user")!
+        let parameters = [
+            "method": "register",
             "password": "ilovecats",
             "method": "register",
             "seed": "c52gk12l"
         ]
-        var request = URLRequest(url: url)
-        request.httpMethod = "POST"
-        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        
-        guard let httpBody = try? JSONSerialization.data(withJSONObject: parametrs, options: []) else { return }
-        request.httpBody = httpBody
         
         let session = URLSession.shared
-        session.dataTask(with: request) { (data, response, error) in
-            if let response = response {
-                print(response)
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        
+        do {
+            request.httpBody = try JSONSerialization.data(withJSONObject: parameters, options: .prettyPrinted)
+        } catch let error {
+            print(error.localizedDescription)
+        }
+        
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.addValue("application/json", forHTTPHeaderField: "Accept")
+        
+        let task = session.dataTask(with: request as URLRequest, completionHandler: { data, response, error in
+            
+            guard error == nil else {
+                return
             }
-            guard let data = data else { return }
+            guard let data = data else {
+                return
+            }
             do {
-                let json = try JSONSerialization.data(withJSONObject: data, options: [])
-                print(json)
-            } catch {
-                print(error)
+                if let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String: Any] {
+                    print(json)
+                }
+            } catch let error {
+                print(error.localizedDescription)
             }
-        }.resume()
+        })
+        task.resume()
+
     }
     @IBAction func loginAction(_ sender: Any) {
         
