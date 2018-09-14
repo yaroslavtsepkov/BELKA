@@ -26,12 +26,13 @@ class ViewController: UIViewController {
     @IBAction func signUpAction(_ sender: Any) {
         
         let url = URL(string: "http://192.168.1.8:3000/user")!
-        let parameters = [
-            "method": "register",
-            "password": "ilovecats",
-            "method": "register",
-            "seed": "c52gk12l"
-        ]
+        let parameters = "Hello World"
+  //      let parameters = [
+  //          "method": "register",
+   //         "password": "ilovecats",
+   //         "method": "register",
+    //        "seed": "c52gk12l"
+    //    ]
         
         let session = URLSession.shared
         var request = URLRequest(url: url)
