@@ -8,15 +8,18 @@
 
 import CoreData
 import UIKit
+import SocketIO
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
+    var socket: SocketIOClient!
     
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?)
         -> Bool {
+
             return true
     }
     
