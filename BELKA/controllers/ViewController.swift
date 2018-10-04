@@ -14,7 +14,7 @@ import SocketIO
 class ViewController: UIViewController {
     var manager:SocketManager!
     
-    var socketIOClient: SocketIOClient!
+    var swiftSocket: SocketIOClient!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,32 +22,37 @@ class ViewController: UIViewController {
         }
     
     func ConnectToSocket() {
+        let config : [String: Any] = ["log": true,
+                                      "compress": true,
+                                      "forcePolling": true,
+                                      "forceNew": true]
         
-        manager = SocketManager(socketURL: URL(string: "http://mybelka.ru:3000/user")!, config: [.log(true), .compress])
-        socketIOClient = manager.defaultSocket
+        manager = SocketManager(socketURL: URL(string: "http://mybelka.ru:3000/user")!, config: config)
+        let defaultNamespaceSocket = manager.defaultSocket
+        swiftSocket = manager.socket(forNamespace: "/user")
         
         
-        socketIOClient.on(clientEvent: .connect) {data, ack in
+        swiftSocket.on(clientEvent: .connect) {data, ack in
             print(data)
             print("socket connected")
         }
         
-        socketIOClient.on(clientEvent: .error) { (data, eck) in
+        swiftSocket.on(clientEvent: .error) { (data, eck) in
             print(data)
             print("socket error")
         }
         
-        socketIOClient.on(clientEvent: .disconnect) { (data, eck) in
+        swiftSocket.on(clientEvent: .disconnect) { (data, eck) in
             print(data)
             print("socket disconnect")
         }
         
-        socketIOClient.on(clientEvent: SocketClientEvent.reconnect) { (data, eck) in
+        swiftSocket.on(clientEvent: SocketClientEvent.reconnect) { (data, eck) in
             print(data)
             print("socket reconnect")
         }
         
-        socketIOClient.connect()
+        swiftSocket.connect()
     }
 
     
@@ -62,7 +67,7 @@ class ViewController: UIViewController {
         "method":"register",
         "seed":"dsfsdf"
         ]
-        socketIOClient.emit("update", data)
+        swiftSocket.emit("request", data)
     }
     @IBAction func loginAction(_ sender: Any) {
         
