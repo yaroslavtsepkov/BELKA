@@ -9,10 +9,7 @@ target 'BELKA' do
  pod 'Alamofire'
  pod 'SwiftyJSON'
  pod 'RealmSwift'
- pod 'Socket.IO-Client-Swift', '~> 13.3.0'
- pod 'Firebase/Core'
- pod ‘Firebase/Auth’
- pod 'Socket.IO-Client-Swift', '~> 13.3.0'
+ pod 'Socket.IO-Client-Swift'
 
   target 'BELKATests' do
     inherit! :search_paths
