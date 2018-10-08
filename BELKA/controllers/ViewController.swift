@@ -12,22 +12,30 @@ import SocketIO
 
 
 class ViewController: UIViewController {
-    var manager:SocketManager!
+   var manager:SocketManager!
     
     var swiftSocket: SocketIOClient!
-
+    let msg = "register"
+    let dic = [
+        "email":"user@mail.ru",
+        "password":"ilovecats",
+        "method":"register",
+        "seed":"dsfsdf"
+    ]
+    let config : [String: Any] = ["log": true,
+                                  "compress": true,
+                                  "forcePolling": true,
+                                  "forceNew": true]
     override func viewDidLoad() {
         super.viewDidLoad()
-        ConnectToSocket()
         }
-    
+    func addSocketHandlers() {
+        swiftSocket.on("response", callback: { data, ack in
+            ack.with(1)
+        }
+    )}
     func ConnectToSocket() {
-        let config : [String: Any] = ["log": true,
-                                      "compress": true,
-                                      "forcePolling": true,
-                                      "forceNew": true]
-        
-        manager = SocketManager(socketURL: URL(string: "http://mybelka.ru:3000/user")!, config: config)
+        manager = SocketManager(socketURL: URL(string: "http://mybelka.ru:3000")!, config: config)
         let defaultNamespaceSocket = manager.defaultSocket
         swiftSocket = manager.socket(forNamespace: "/user")
         
@@ -37,20 +45,23 @@ class ViewController: UIViewController {
             print("socket connected")
         }
         
-        swiftSocket.on(clientEvent: .error) { (data, eck) in
+        swiftSocket.on(clientEvent: .error) { (data, ack) in
             print(data)
             print("socket error")
         }
         
-        swiftSocket.on(clientEvent: .disconnect) { (data, eck) in
+        swiftSocket.on(clientEvent: .disconnect) { (data, ack) in
             print(data)
             print("socket disconnect")
         }
         
-        swiftSocket.on(clientEvent: SocketClientEvent.reconnect) { (data, eck) in
+        swiftSocket.on(clientEvent: SocketClientEvent.reconnect) { (data, ack) in
             print(data)
             print("socket reconnect")
         }
+        swiftSocket.on("response", callback: {data, ack in
+            
+        })
         
         swiftSocket.connect()
     }
@@ -61,13 +72,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var passwordConfirm: UITextField!
     @IBAction func signUpAction(_ sender: Any) {
         ConnectToSocket()
-        let data = [
-        "email":"user@mail.ru",
-        "password":"ilovecats",
-        "method":"register",
-        "seed":"dsfsdf"
-        ]
-        swiftSocket.emit("request", data)
+        self.swiftSocket.emit("request", dic)
+        
     }
     @IBAction func loginAction(_ sender: Any) {
         
