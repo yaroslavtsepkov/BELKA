@@ -10,6 +10,7 @@
 		292CD7D1E56BBE81BB314290 /* Pods_BELKAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEDA0B4A1FEE2E849CA9038 /* Pods_BELKAUITests.framework */; };
 		678D24C9C259F12C2A6BC33C /* Pods_BELKA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BC3A316D43F74FACD1AB47 /* Pods_BELKA.framework */; };
 		98ED8484CF040CDA53BD17C4 /* Pods_BELKATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188BBA3F3A5890F85A5B50B8 /* Pods_BELKATests.framework */; };
+		C40DB4C4217CD1C9005B145D /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40DB4C3217CD1C9005B145D /* SocketIOManager.swift */; };
 		C45912172132AD15003E396D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C45912162132AD14003E396D /* GoogleService-Info.plist */; };
 		C47E118421172FA800228EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E118321172FA800228EBA /* AppDelegate.swift */; };
 		C47E118621172FA800228EBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E118521172FA800228EBA /* ViewController.swift */; };
@@ -47,6 +48,7 @@
 		64BC3A316D43F74FACD1AB47 /* Pods_BELKA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BELKA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		702AA85653EF0BBF106BB40C /* Pods-BELKATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BELKATests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BELKATests/Pods-BELKATests.debug.xcconfig"; sourceTree = "<group>"; };
 		B74AE5593726A593BCF09149 /* Pods-BELKATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BELKATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BELKATests/Pods-BELKATests.release.xcconfig"; sourceTree = "<group>"; };
+		C40DB4C3217CD1C9005B145D /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
 		C45912162132AD14003E396D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C47E118021172FA800228EBA /* BELKA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BELKA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47E118321172FA800228EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				C4F1CA4A2124BA650076582D /* UIView_Layer.swift */,
+				C40DB4C3217CD1C9005B145D /* SocketIOManager.swift */,
 			);
 			path = helpers;
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C47E118C21172FA800228EBA /* BELKA.xcdatamodeld in Sources */,
+				C40DB4C4217CD1C9005B145D /* SocketIOManager.swift in Sources */,
 				C47E118621172FA800228EBA /* ViewController.swift in Sources */,
 				C4F1CA4B2124BA650076582D /* UIView_Layer.swift in Sources */,
 				C47E118421172FA800228EBA /* AppDelegate.swift in Sources */,
